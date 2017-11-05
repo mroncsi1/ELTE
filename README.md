@@ -1,0 +1,2 @@
+# Alkfejl
+ELTE alkalmazás fejlesztése
