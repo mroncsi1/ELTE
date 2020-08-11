@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="301.0" prefWidth="408.0" stylesheets="@../css/sample.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.openjfx.controller.HelloWorldController">
+   <children>
+      <JFXButton layoutX="121.0" layoutY="123.0" onAction="#handleHelloWorldBtnEvent" prefHeight="94.0" prefWidth="166.0" text="Hello World Button" />
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="125.0" layoutY="77.0" prefHeight="25.0" prefWidth="158.0" />
+   </children>
+</AnchorPane>

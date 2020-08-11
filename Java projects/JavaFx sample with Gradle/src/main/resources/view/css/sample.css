@@ -1,0 +1,14 @@
+.label {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #996600;
+    -fx-alignment: center;
+}
+
+.button {
+    -fx-background-color: #ffcc66;
+    -fx-border-color: #ffaa00;
+    -fx-border-width: 2;
+    -fx-text-fill: #996600;
+    -fx-font-weight: bold;
+}

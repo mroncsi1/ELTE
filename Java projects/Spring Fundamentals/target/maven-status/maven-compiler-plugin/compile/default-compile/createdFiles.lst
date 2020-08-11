@@ -1,0 +1,7 @@
+hu\oryyon\configuration\AppConfig.class
+hu\oryyon\Main.class
+hu\oryyon\service\CustomerService.class
+hu\oryyon\repository\CustomerRepositoryImpl.class
+hu\oryyon\model\Customer.class
+hu\oryyon\service\CustomerServiceImpl.class
+hu\oryyon\repository\CustomerRepository.class

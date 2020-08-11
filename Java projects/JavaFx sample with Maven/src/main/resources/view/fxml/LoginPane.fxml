@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="415.0" styleClass="AnchorPane" stylesheets="@../css/sample.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.LoginController">
+   <children>
+      <JFXButton contentDisplay="GRAPHIC_ONLY" focusTraversable="false" layoutX="347.0" layoutY="14.0" minWidth="40.0" onAction="#handleExitBtnEvent" prefHeight="44.0" prefWidth="55.0" textFill="#2952a3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <FontIcon iconColor="#c4d2ee" iconLiteral="fa-power-off" iconSize="25" />
+         </graphic>
+      </JFXButton>
+      <HBox alignment="CENTER" layoutX="88.0" layoutY="229.0" prefHeight="50.0" prefWidth="239.0">
+         <children>
+            <FontIcon iconColor="#1b325e" iconLiteral="fa-expeditedssl" iconSize="22">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </FontIcon>
+            <JFXPasswordField fx:id="passwordPF" focusColor="#2e559e" focusTraversable="false" prefHeight="36.0" prefWidth="207.0" promptText="Password" styleClass="text-field" unFocusColor="#1b325e" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="88.0" layoutY="164.0" prefHeight="50.0" prefWidth="233.0">
+         <children>
+            <FontIcon iconColor="#1b325e" iconLiteral="fa-user-circle-o" iconSize="22">
+               <HBox.margin>
+                  <Insets right="10.0" />
+               </HBox.margin>
+            </FontIcon>
+            <JFXTextField fx:id="usernameTF" focusColor="#2e559e" prefHeight="36.0" prefWidth="207.0" promptText="Username" unFocusColor="#1b325e" />
+         </children>
+      </HBox>
+      <JFXButton focusTraversable="false" layoutX="92.0" layoutY="310.0" onAction="#handleLoginBtnEvent" prefHeight="50.0" prefWidth="233.0" text="Login" textFill="#2952a3">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <graphic>
+            <FontIcon iconColor="#c4d2ee" iconLiteral="fa-sign-in" iconSize="20" />
+         </graphic>
+      </JFXButton>
+      <HBox layoutX="149.0" layoutY="399.0">
+         <children>
+            <FontIcon iconColor="#1b325e" iconLiteral="fa-copyright" iconSize="15">
+               <HBox.margin>
+                  <Insets right="2.0" />
+               </HBox.margin>
+            </FontIcon>
+            <Label text="All rights reserved" textFill="#1b325e">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <ImageView fitHeight="50.0" fitWidth="118.0" layoutX="146.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../kek%20jarkon%20logo%20vector.png" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>
